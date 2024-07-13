@@ -1,0 +1,17 @@
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.1
+gem5 compiled Oct 23 2023 04:25:40
+gem5 started Dec 13 2023 03:28:17
+gem5 executing on cpre581-base-f23, pid 105043
+command line: /home/vm-user/gem5/build/X86/gem5.opt -d chkp23_test -r -e /home/vm-user/gem5/configs/deprecated/example/se.py --restore-simpoint-checkpoint --checkpoint-dir checkpoints -r 23 --cpu-type=NonCachingSimpleCPU --restore-with-cpu=X86NonCachingSimpleCPU -c namd.gcc43-64bit --options '--input namd.input --output namd.output --iterations 2'
+
+Resuming from checkpoints/cpt.simpoint_22_inst_117619000000_weight_0.049452_interval_10000000_warmup_1000000
+Resuming from SimPoint #22, start_inst:117619000000, weight:0.049452, interval:10000000, warmup:1000000
+Global frequency set at 1000000000000 ticks per second
+Switch at curTick count:10000
+Switched CPUS @ tick 110218051953500
+switching cpus
+Warmed up! Dumping and resetting stats!
+Done running SimPoint!

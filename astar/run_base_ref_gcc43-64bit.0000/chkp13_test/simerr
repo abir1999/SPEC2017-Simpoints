@@ -1,0 +1,12 @@
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The se.py script is deprecated. It will be removed in future releases of  gem5.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7002
+src/sim/process.cc:396: warn: Checkpoints for pipes, device drivers and sockets do not work.
+src/sim/simulate.cc:194: info: Entering event queue @ 19243788724000.  Starting simulation...
+src/sim/power_state.cc:105: warn: PowerState: Already in the requested power state, request ignored
+src/sim/simulate.cc:194: info: Entering event queue @ 19243788734000.  Starting simulation...
+src/sim/simulate.cc:194: info: Entering event queue @ 19244804782500.  Starting simulation...

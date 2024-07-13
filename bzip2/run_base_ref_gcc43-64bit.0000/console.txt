@@ -1,0 +1,11 @@
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.1
+gem5 compiled Oct 23 2023 04:25:40
+gem5 started Dec 12 2023 02:29:44
+gem5 executing on cpre581-base-f23, pid 88299
+command line: /home/vm-user/gem5/build/X86/gem5.opt --outdir=chkp_test_O3 /home/vm-user/gem5/configs/deprecated/example/se.py --restore-simpoint-checkpoint --checkpoint-dir checkpoints --cpu-type DerivO3CPU --caches -c bzip2_base.gcc43-64bit --options 'input.program 5'
+
+Exiting @ tick 7457327500 because user interrupt received
